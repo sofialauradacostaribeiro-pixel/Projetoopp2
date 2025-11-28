@@ -1,3 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(230, 230, 215, 1);
+}
+
+
 .principal{
  background-color: rgba(230, 230, 215, 1);
 }
@@ -26,112 +37,76 @@ text-align: center;
     
 }
 
-.Caixa1{
-background-color: rgba(0, 18, 25, 1);
-width: 336px;
-height: 200px;
-padding: 10px;
-margin: 5px;
-border-radius: 15px;
-text-align: center;
-    
+.conteinerCaixas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
 }
 
-    .Caixa2{
-    background-color: rgba(0, 95, 115, 1);
+.Caixa{
     width: 336px;
     height: 200px;
-    padding: 10px;
-    margin: 10px;
     border-radius: 15px;
     text-align: center;
+}
 
-    }
+#boxblack{
+    background-color: rgba(0, 18, 25, 1);
+    color: white;
+    text-align: center;
+}
 
-        .Caixa3{
-            background-color: rgba(10, 147, 150, 1);
-            width: 336px;
-            height: 200px;
-            padding: 10px;
-            margin: 15px;
-            border-radius: 15px;
-            text-align: center;
+#boxdarkblue{
+    background-color:rgba(0, 95, 115, 1);
+    color: white;
+    text-align: center;
+}
 
-        }
+#boxblue{
+    background-color: rgba(10, 147, 150, 1);
+    color:white;
+    text-align: center;
+}
 
-.Caixa4{
+#boxbabyblue{
     background-color: rgba(148, 210, 189, 1);
-    width: 336px;
-    height: 200px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 15px;
+    color: rgb(141, 141, 141);
     text-align: center;
-
 }
 
-    .Caixa5{
-        background-color:rgba(233, 216, 166, 1);
-        width: 336px;
-        height: 200px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 15px;
-        text-align: center;
-
-    }
-
-        .Caixa6{
-            background-color:rgba(238, 155, 0, 1);
-            width: 336px;
-            height: 200px;
-            padding: 10px;
-            margin: 15px;
-            border-radius: 15px;
-            text-align: center;
-
-        }
-
-.Caixa7{
-    background-color:rgba(202, 103, 2, 1);
-    width: 336px;
-    height: 200px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 15px;
+#boxwhite{
+    background-color: rgba(233, 216, 166, 1);
+    color: rgb(141, 141, 141);
     text-align: center;
-
 }
 
-    .Caixa8{
-        background-color:rgba(187, 62, 3, 1);
-        width: 336px;
-        height: 200px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 15px;
-        text-align: center;
-
-    }
-
-        .Caixa9{
-            background-color:rgba(174, 32, 18, 1) ;
-            width: 336px;
-            height: 200px;
-            padding: 10px;
-            margin: 15px;
-            border-radius: 15px;
-            text-align: center;
-
-        }
-
-.Caixa10{
-    background-color:rgba(155, 34, 38, 1) ;
-    width: 336px;
-    height: 200px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 15px;
+#boxyellow{
+    background-color: rgba(238, 155, 0, 1);
+    color: white;
     text-align: center;
+}
 
+#boxdarkyellow{
+    background-color: rgba(202, 103, 2, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxorange{
+    background-color: rgba(187, 62, 3, 1);
+    color:white;
+    text-align: center;
+}
+
+#boxred{
+    background-color: rgba(174, 32, 18, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxdarkred{
+    background-color: rgba(155, 34, 38, 1);
+    color: white;
+    text-align: center;
 }
