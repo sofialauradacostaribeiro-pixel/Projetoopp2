@@ -1,23 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(230, 230, 215, 1);
+}
+
+
+.principal{
+ background-color: rgba(230, 230, 215, 1);
+}
+
 .Prin{
     color: white;
     background-color: black;
     margin: 20px;
-    width: 200px;
-    height: 50px;
-    text-align: right;
+    width: 1390px;
+    height: 150px;
+    text-align:right;
 }
 
 .P{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
     color: black;
     text-align:left;
-
+    width: 528px;
+    height: 354px;
 }
 
 .S{
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: black;
-   text-align: center;
-   
-
+color: black;
+text-align:left;
 }
+
+.conteinerCaixas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+.catalogo{
+    
+}
+.Caixa{
+    width: 336px;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#boxblack{
+    background-color: rgba(0, 18, 25, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxdarkblue{
+    background-color:rgba(0, 95, 115, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxblue{
+    background-color: rgba(10, 147, 150, 1);
+    color:white;
+    text-align: center;
+}
+
+#boxbabyblue{
+    background-color: rgba(148, 210, 189, 1);
+    color: rgb(141, 141, 141);
+    text-align: center;
+}
+
+#boxwhite{
+    background-color: rgba(233, 216, 166, 1);
+    color: rgb(141, 141, 141);
+    text-align: center;
+}
+
+#boxyellow{
+    background-color: rgba(238, 155, 0, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxdarkyellow{
+    background-color: rgba(202, 103, 2, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxorange{
+    background-color: rgba(187, 62, 3, 1);
+    color:white;
+    text-align: center;
+}
+
+#boxred{
+    background-color: rgba(174, 32, 18, 1);
+    color: white;
+    text-align: center;
+}
+
+#boxdarkred{
+    background-color: rgba(155, 34, 38, 1);
+    color: white;
+    text-align: center;
+}
+
